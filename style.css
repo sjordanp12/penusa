@@ -105,6 +105,11 @@ footer {
   transition: transform 0.3s ease;
   opacity: 100%;
 }
+
+   * {
+    overflow-x: hidden !important;
+     overflow-y: hidden !important;
+  }
 /* Breakpoint */
 @media (max-width: 992px) {
   section {
@@ -120,10 +125,7 @@ footer {
     max-height: 40%;
   }
 
-   * {
-    overflow-x: hidden !important;
-     overflow-y: hidden !important;
-  }
+
 }
 #backToTopBtn {
   display: none; /* Tombol tidak ditampilkan secara default */
