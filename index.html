@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>STMIK Pelita Nusantara</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="image/background/logo.png" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-transparent navbar-expand-lg fixed-top">
+      <div class="container">
+        <img src="image/background/logo.png" width="70px" height="70px" alt="" /> <a class="navbar-brand" href="#"> &nbsp; STMIK Pelita Nusantara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#visi&misi">Visi & Misi</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#prodi">Program Studi</a></li>
+                  <li><a class="dropdown-item" href="#sarPras">Sarana & Prasarana</a></li>
+                  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form> -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <section id="home">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000">
+        <div class="jumbotron">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-6 text-center">
+              <img src="image/background/logo.png" style="width: 70%; height: 70%" alt="" />
+            </div>
+            <div class="col-md-6">
+              <div id="lastUpdated" class="lastUpdated py-5 text-secondary">anda membuka website ini pada : &nbsp</div>
+              <!-- <button class="btn btn-primary m-5" onclick="showPrompt()">Septian menyapamu</button> -->
+
+              <h4 class="">Sejarah STMIK Pelita Nusantara</h4>
+              <p class="isi">
+                STMIK Pelita Nusantara didirikan pada tanggal 05 September 2003 dengan Akte Pendirian Nomor 16 yang dikeluarkan oleh Notaris Gongga Marpaung, SH. Sebelumnya terdapat perubahan nama dan alih kelola dari Sekolah Tinggi
+                Manajemen Informatika dan Komputer TAFEINDO (Tunggal Adicita Falsafah Esa Indonesia) yang diselenggarakan oleh Yayasan Pendidikan Tunggal Adicita Falsafah Esa di Medan menjadi Sekolah Tinggi Manajemen Informatika dan
+                komputer (STMIK) Pelita Nusantara Medan yang diselenggarakan oleh Yayasan Pendidikan Demokrat Cemerlang di Medan, melalui keputusan Menteri Pendidikan nasional Republik indonesia No.159/D/0/2007 pada tanggal 22 Agustus 2007.
+                STMIK Pelita Nusantara berlokasi
+                <a href="#maps">di Jalan Iskandar Muda No.1, Medan Baru Sumatera Utara - Indonesia.</a>
+              </p>
+              <button class="btn btn-success" id="promptButton">
+                Septian menyapamu
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Home -->
+
+    <!-- Visi & Misi -->
+    <section id="visi&misi">
+      <div class="container rounded-3 bg-body-tertiary shadow p-3 mb-5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <div class="col">
+            <h4 class="section-title text-center visi text-lg pt-3 judul">Visi & Misi</h4>
+
+            <div class="isi text-center">
+              KOTA MEDAN MENUJU KOTA SEJAHTERA YANG BERKEADILAN SOSIAL BAGI SELURUH MASYARAKAT
+              <hr />
+
+              <h5>Visi</h5>
+              <p>STMIK Pelita Nusantara Menjadi Perguruan Tinggi Unggul Dan Pusat Pendidikan Komputer Yang Menghasilkan Lulusan Berdaya Saing Nasional Pada Tahun 2024.</p>
+              <h5>Misi :</h5>
+              <p>
+                1. Menyelenggarakan pendidikan tinggi bertaraf nasional di bidang Teknik Informatika, Rekayasa Perangkat Lunak, Teknologi Informasi, Bisnis Digital, Teknologi Rekayasa Komputer Jaringan dan Manajemen Informatika yang
+                bernilai guna bagi masyarakat dan dapat diakses dengan mudah dari segala penjuru.
+              </p>
+              <p>2. Menyelenggarakan sistem pendidikan yang berkualitas dan integratif berbasis hasil penelitian yang selaras dengan kebutuhan stakeholder .</p>
+              <p>
+                3. Melaksanakan penelitian-penelitian berkualitas dalam bidang Teknik Informatika, Rekayasa Perangkat Lunak, Teknologi Informasi, Bisnis Digital, Teknologi Rekayasa Komputer Jaringan dan Manajemen Informatika yang dapat
+                meningkatkan daya saing nasional.
+              </p>
+              <p>
+                4. Menyelenggarakan Layanan Pengabdian Kepada Masyarakat dalam rangka ikut memberikan kontribusi solusi bagi persoalan nasional, terutama dalam bidang Teknik Informatika, Rekayasa Perangkat Lunak, Teknologi Informasi, Bisnis
+                Digital, Teknologi Rekayasa Komputer Jaringan dan Manajemen Informatika.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Visi & Misi End -->
+
+    <!-- Bidang -->
+    <section id="prodi">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <h4 class="section-title bidang fs-1 text-center mb-5">Program Studi STMIK Pelita Nusantara</h4>
+
+          <div class="row justify-content-center">
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="card shadow p-3 mb-5">
+                <div class="card-body">
+                  <h6 class="card-title">Teknik Informatika</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary" id="teknikInformatika">Lihat selengkapnya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="card shadow p-3 mb-5">
+                <div class="card-body">
+                  <h6 class="card-title">Manajemen Informatika</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary" id="manajemenInformatika">Lihat selengkapnya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="card shadow p-3 mb-5">
+                <div class="card-body">
+                  <h6 class="card-title">Teknologi Informasi</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary" id="teknologiInformasi">Lihat selengkapnya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="card shadow p-3 mb-5">
+                <div class="card-body">
+                  <h6 class="card-title">Rekayasa Perangkat Lunak</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary" id="rekayasaPerangkatLunak">Lihat selengkapnya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="card shadow p-3 mb-5">
+                <div class="card-body">
+                  <h6 class="card-title">Teknik Rekayasa Komputer & Jaringan</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary" id="teknikRekayasaKJ">Lihat selengkapnya</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+              <div class="card shadow p-3 mb-5">
+                <div class="card-body">
+                  <h6 class="card-title">Bisnis Digital</h6>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary" id="bisnisDigital">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Bidang -->
+
+    <!-- SarPras -->
+    <section id="sarPras" class="bg-body-tertiary">
+      <div class="container-fluid pb-5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <div class="col pb-5">
+            <h4 class="section-title text-center text-lg fs-1">Sarana & Prasarana</h4>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 text-center" data-aos="fade-right">
+            <img src="image/Fasilitas/gedung.png" class="shadow-lg p-3 mb-5" width="400px" height="400px" alt="" />
+          </div>
+          <div class="col-md-4" data-aos="fade-left">
+            <div class="card-text">
+              <div class="card-title">Gedung</div>
+              Gedung STMIK Pelita Nusantara Medan adalah salah satu gedung elit dengan fasilitas terbaik di Sumatera Utara. Desain gedung yang sangat diperhatikan untuk kenyamanan mahasiswa dalam proses belajar. Desain gedung STMIK Penusa
+              sangat rapi dan sangat professional. Hal ini dibuktikan dengan tanggapan positif semua asesor yang datang mengenai gedung dan fasilitas STMIK Pelita Nusantara.
+            </div>
+          </div>
+        </div>
+        <div class="row flex-sm-wrap-reverse justify-content-center align-items-center">
+          <div class="col-md-4" data-aos="fade-left">
+            <div class="card-text">
+              <div class="card-title">Fasilitas Gedung</div>
+              <p>AC berkualitas dengan jumlah yang memadai; Mading disetiap lantai;</p>
+              <p>Hidrant & Pemadan kebakaran pada tiap lantai;</p>
+              <p>Kipas di luar ruangan; Speaker pengumuman pada tiap lantai dan ruangan;</p>
+              <p>Pemadam kebarakan otomatis pada tiap atap lantai;</p>
+              <p>Toilet kelas hotel-hotel mewah; dan Fasilitas Sales Promotion, bagi perusahaan atau mahasiswa yang ingin membuat pameran.</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center" data-aos="fade-right">
+            <img src="image/Fasilitas/fasilitasGedung.png" class="shadow-lg p-3 mb-5" width="400px" height="400px" alt="" />
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4 text-center" data-aos="fade-right">
+            <img src="image/background/logo-removebg-preview.png" class="shadow-lg p-3 mb-5" width="400px" height="400px" alt="" />
+          </div>
+          <div class="col-md-4" data-aos="fade-left">
+            <div class="card-text">
+              <div class="card-title">Aula</div>
+              Salah satu keunggulan STMIK Pelita Nusantara adalah memiliki ruangan Aula yang multi guna. Desain yang mewah setara ruangan rapat hotel mewah, memiliki peralatan yang lengkap mulai dari pencahayaan, musik, altar, kursi dan
+              fasilitas yang lainnya. Oleh karena itu, aula STMIK Pelita Nusantara Medan juga digunakan untuk kegitan efektif lain seperti, acara wisuda, acara seminar, acara pelatihan, acara pmb dan acara efektif lainnya.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End SarPras -->
+
+    <!-- Maps -->
+
+    <!-- Tempelkan kode embed di sini -->
+    <section id="maps">
+      <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+        <h4 class="section-title fs-1 m-5">Peta lokasi kampus STMIK Pelita Nusantara Medan</h4>
+        <iframe
+          width="100%"
+          height="500vh"
+          frameborder="0"
+          style="border: 0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15928.18660021888!2d98.66493130915465!3d3.5767515583547804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30313029cea1eebb%3A0x2b345f687b341739!2sSTMIK%20PELITA%20NUSANTARA!5e0!3m2!1sid!2sid!4v1721226352656!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </section>
+    <!-- End Maps -->
+
+    <!-- Hubungi Kami -->
+    <section id="contact">
+      <div class="container-fluid bg-body-tertiary rounded-3">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <h4 class="section-title text-center fs-1 mt-5">Contact Us</h4>
+
+            <form id="myForm">
+              <div class="mb-3">
+                <label for="nama" class="form-label">Nama</label>
+                <input type="text" class="form-control" name="nama" id="nama" aria-describedby="emailHelp" autocomplete="off" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" autocomplete="off" required />
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <input type="text" class="form-control p-5" aria-describedby="" id="pesan" autocomplete="off" required />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <button onclick="topFunction()" class="btn btn-secondary" id="backToTopBtn" title="Kembali ke Atas">
+        Back to Top
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+          <path
+            fill-rule="evenodd"
+            d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5m-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </button>
+    </footer>
+
+    <!-- End Hubungi kami -->
+    <!-- Footer -->
+    <footer class="bg-body-tertiary text-center">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Images -->
+        <!-- <section class="">
+          <div class="row">
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div data-mdb-ripple-init class="bg-image hover-overlay shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div data-mdb-ripple-init class="bg-image hover-overlay shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/111.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div data-mdb-ripple-init class="bg-image hover-overlay shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/112.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div data-mdb-ripple-init class="bg-image hover-overlay shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div data-mdb-ripple-init class="bg-image hover-overlay shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/115.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div data-mdb-ripple-init class="bg-image hover-overlay shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/116.webp" class="w-100" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <!-- Section: Images -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
+        created with
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+        </svg>
+        by
+        <a class="text-body" style="text-decoration: none" href="https://www.instagram.com/sjordanp_/"> septianjordanpurba</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer End -->
+    <!-- My Javascript -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  </body>
+</html>

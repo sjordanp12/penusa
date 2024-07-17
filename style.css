@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* .oswald {
+  font-family: 'Oswald', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+.navbar-brand {
+  font-family: Oswald;
+  font-size: 20px;
+  color: white;
+}
+
+.offcanvas-body {
+  transition: 0.9s all ease-in-out;
+}
+
+.nav-item a:hover {
+  opacity: 50%;
+  transition: 0.3s all ease-in-out;
+}
+
+.navbar {
+  background-color: transparent; /* Warna latar belakang transparan pada awalnya */
+  transition: background-color 0.3s ease; /* Efek transisi ketika warna latar belakang berubah */
+}
+
+.navbar.scrolled {
+  background-color: #ffffff; /* Ganti warna latar belakang saat navbar digulir */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Contoh: tambahkan bayangan pada navbar saat digulir */
+}
+
+.nav-link {
+  font-family: 'Heebo';
+}
+
+/* Jumbotron */
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 30px !important;
+  font-style: normal;
+}
+section {
+  padding-top: 160px;
+}
+
+.judul {
+  font-size: 40px !important;
+}
+.isi {
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  opacity: 60%;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.section-title::after {
+  content: '';
+  display: block;
+  width: 10%;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Bidang */
+.card-title {
+  font-family: 'Oswald';
+  letter-spacing: 2px;
+  font-size: 20px;
+  opacity: 50%;
+}
+.card-text {
+  font-family: 'Poppins';
+  opacity: 40%;
+}
+
+.lastUpdated {
+  font-family: 'Heebo';
+}
+/* Footer */
+footer {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+}
+
+#sarPras img {
+  opacity: 90%;
+  margin-top: 50px;
+}
+#sarPras img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  opacity: 100%;
+}
+/* Breakpoint */
+@media (max-width: 992px) {
+  section {
+    padding-top: 150px;
+  }
+
+  #sarPras img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .jumbotron img {
+    max-width: 40%;
+    max-height: 40%;
+  }
+}
+
+#backToTopBtn {
+  display: none; /* Tombol tidak ditampilkan secara default */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  /* background-color: #007bff; Warna latar belakang tombol */
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#backToTopBtn:hover {
+  background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}
+
+@media (max-width: 500px) {
+  /* html {
+    display: none;
+  } */
+}
