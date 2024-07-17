@@ -119,6 +119,9 @@ footer {
     max-width: 40%;
     max-height: 40%;
   }
+
+  *{
+    overflow-x : hidden;
 }
 
 #backToTopBtn {
