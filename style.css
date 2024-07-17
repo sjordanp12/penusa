@@ -110,6 +110,12 @@ footer {
     overflow-x: hidden !important;
     
   }
+
+h4,
+  .card-title,
+  .card-title {
+    overflow-y: hidden !important;
+  }
 /* Breakpoint */
 @media (max-width: 992px) {
   section {
