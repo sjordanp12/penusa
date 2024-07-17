@@ -123,7 +123,7 @@ footer {
   *{
     overflow-x : hidden !important;
 }
-
+}
 #backToTopBtn {
   display: none; /* Tombol tidak ditampilkan secara default */
   position: fixed;
