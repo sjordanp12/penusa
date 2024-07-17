@@ -120,9 +120,9 @@ footer {
     max-height: 40%;
   }
 
-  *{
-    overflow-x : hidden !important;
-}
+   * {
+    overflow-x: hidden !important;
+  }
 }
 #backToTopBtn {
   display: none; /* Tombol tidak ditampilkan secara default */
