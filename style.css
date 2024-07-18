@@ -90,6 +90,13 @@ section {
 .lastUpdated {
   font-family: 'Heebo';
 }
+
+  h4,
+  .card-title,
+  .card-title,
+  h5 {
+    overflow-y: hidden !important;
+  }
 /* Footer */
 footer {
   font-family: 'Courier New', Courier, monospace;
